@@ -15,9 +15,10 @@ python -m http.server 8000
 ## 自定义
 
 - 名字 / 副标题 / 简介：修改 `index.html` 里的 `h1`、`.subtitle` 和 `.bio`
-- 邮箱：改 `mailto:` 链接
+- 邮箱 / 微信 / QQ：改对应 `href` 和 `title` 里的联系方式
 - GitHub：把 `https://github.com/` 换成你的主页地址
-- 链接图标（从左到右）：邮箱、GitHub、Bilibili（ri-bilibili-line）、监测（ri-cloud-line），均为内联 SVG，改 `aria-label` 和 `href` 即可
+- 浏览器标签图标：替换根目录的 `favicon.ico`
+- 链接图标（从左到右）：邮箱、微信（ri-wechat-line）、QQ（ri-qq-line）、GitHub、Bilibili（ri-bilibili-line）、监测（ri-cloud-line），均为内联 SVG，改 `aria-label` 和 `href` 即可
 
 ## 技术栈
 
