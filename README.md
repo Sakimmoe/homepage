@@ -25,8 +25,8 @@ python -m http.server 8000
 
 ## 部署（Vercel）
 
-- 线上地址：https://homepage-tawny-psi.vercel.app
-- 项目：Vercel 上的 `homepage` 项目（已关闭访问保护，公开可访问）
+- 线上地址：https://www.noyu.moe（备用：https://homepage-tawny-psi.vercel.app）
+- 项目：Vercel 上的 `homepage` 项目（已绑定 www.noyu.moe，已关闭访问保护，公开可访问）
 
 更新后重新部署：
 
