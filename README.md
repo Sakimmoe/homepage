@@ -15,10 +15,10 @@ python -m http.server 8000
 ## 自定义
 
 - 名字 / 副标题 / 简介：修改 `index.html` 里的 `h1`、`.subtitle` 和 `.bio`
-- 邮箱 / 微信 / QQ：改对应 `href` 里的联系方式（微信用 `weixin://` 唤起，QQ 用 `tencent://message/` 唤起）
+- 邮箱：改 `mailto:` 链接
 - GitHub：`https://github.com/Sakimmoe`
 - 浏览器标签图标：替换根目录的 `favicon.ico`
-- 链接图标（从左到右）：邮箱、微信（ri-wechat-2-line）、QQ（ri-qq-line）、GitHub、Bilibili（ri-bilibili-line）、监测（ri-cloud-line），均为内联 SVG，改 `aria-label` 和 `href` 即可
+- 链接图标（从左到右）：邮箱、GitHub、Bilibili（ri-bilibili-line）、监测（ri-cloud-line），均为内联 SVG，改 `aria-label` 和 `href` 即可
 
 ## 技术栈
 
