@@ -17,7 +17,7 @@ python -m http.server 8000
 - 名字 / 副标题 / 简介：修改 `index.html` 里的 `h1`、`.subtitle` 和 `.bio`
 - 邮箱：改 `mailto:` 链接
 - GitHub：把 `https://github.com/` 换成你的主页地址
-- 链接图标：邮箱、GitHub、监测（status.noyu.moe）、Bilibili，均为内联 SVG 描边风格，改 `aria-label` 和 `href` 即可
+- 链接图标（从左到右）：邮箱、GitHub、Bilibili（ri-bilibili-line）、监测（ri-cloud-line），均为内联 SVG，改 `aria-label` 和 `href` 即可
 
 ## 技术栈
 
