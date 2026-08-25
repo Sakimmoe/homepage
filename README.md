@@ -18,7 +18,7 @@ python -m http.server 8000
 - 邮箱 / 微信 / QQ：改对应 `href` 和 `title` 里的联系方式
 - GitHub：把 `https://github.com/` 换成你的主页地址
 - 浏览器标签图标：替换根目录的 `favicon.ico`
-- 链接图标（从左到右）：邮箱、微信（ri-wechat-line）、QQ（ri-qq-line）、GitHub、Bilibili（ri-bilibili-line）、监测（ri-cloud-line），均为内联 SVG，改 `aria-label` 和 `href` 即可
+- 链接图标（从左到右）：邮箱、微信（ri-wechat-2-line）、QQ（ri-qq-line）、GitHub、Bilibili（ri-bilibili-line）、监测（ri-cloud-line），均为内联 SVG，改 `aria-label` 和 `href` 即可
 
 ## 技术栈
 
