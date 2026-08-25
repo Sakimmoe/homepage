@@ -27,10 +27,11 @@ python -m http.server 8000
 ## 部署（Vercel）
 
 - 线上地址：https://www.noyu.moe（备用：https://homepage-tawny-psi.vercel.app）
-- 项目：Vercel 上的 `homepage` 项目（已绑定 www.noyu.moe，已关闭访问保护，公开可访问）
+- 源码仓库：https://github.com/Sakimmoe/homepage
+- 项目：Vercel 上的 `homepage` 项目（已绑定 www.noyu.moe、已连接 GitHub 仓库，推送 `main` 分支即自动部署）
 
 更新后重新部署：
 
 ```bash
-vercel --prod
+git push
 ```
