@@ -67,11 +67,14 @@
             display: inline-flex;
             color: #2b1f1e;
             transition: color 0.2s ease, transform 0.2s ease;
+            -webkit-tap-highlight-color: transparent;
         }
 
-        .icon-link:hover {
-            color: #d96a63;
-            transform: translateY(-2px);
+        @media (hover: hover) {
+            .icon-link:hover {
+                color: #d96a63;
+                transform: translateY(-2px);
+            }
         }
 
         .icon-link svg {
