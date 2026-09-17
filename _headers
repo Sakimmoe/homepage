@@ -1,2 +1,7 @@
+# HTML 每次都向服务器校验，避免改完页面看不到更新
 /*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=0, must-revalidate
+
+# 静态资源可以放心长缓存
+/favicon.ico
+  Cache-Control: public, max-age=604800
