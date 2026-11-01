@@ -1,5 +1,12 @@
-# HTML 每次都向服务器校验，避免改完页面看不到更新
-/*
+# HTML 每次都向服务器校验，避免改完页面看不到更新。
+# 注意：这里不能用 /* 通配。Vercel 会把所有匹配的规则拼在一起下发，
+# 全局的 max-age=0 会和下面静态资源的长缓存拼成自相矛盾的响应头：
+#   Cache-Control: public, max-age=0, must-revalidate, public, max-age=604800
+# 所以入口页面单独列出来，其余静态资源各自声明。
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
+/index.html
   Cache-Control: public, max-age=0, must-revalidate
 
 # 静态资源可以放心长缓存
