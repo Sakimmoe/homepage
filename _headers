@@ -5,3 +5,7 @@
 # 静态资源可以放心长缓存
 /favicon.ico
   Cache-Control: public, max-age=604800
+
+# 网页字体子集：文件名固定，所以不用 immutable，一周后回源校验一次
+/fonts/*
+  Cache-Control: public, max-age=604800
